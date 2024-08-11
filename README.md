@@ -9,8 +9,8 @@ Detecting loops, or repetitions of musical patterns, presents a challenge when t
 
 # Instruction for using the code for note onset median metric level (NOMML) heuristic
 ## Install and import Libraries for the NOMML code: <br /> 
-os, glob, json, random, numpy, tqdm, Pool <br />
-symusic library is used for MIDI parsing.
+imported libraries: os, glob, json, random, numpy, tqdm, Pool, symusic (pip install required for numpy, tqdm and symusic) <br />
+Note: symusic library is used for MIDI parsing.
 
 ## Using with the command line  <br />
 usage: python main.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]  <br />
