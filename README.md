@@ -8,8 +8,9 @@ To measure their expressiveness, we introduced a new heuristic called note onset
 Detecting loops, or repetitions of musical patterns, presents a challenge when tracks exhibit expressive timing variations, as repeated patterns may not be strictly identical. To address this issue, we integrate our NOMML heuristic with a MIDI-based loop detection method specifically designed for non-expressive music tracks, which allows for the identification of 7M loops.
 
 # Instruction for using the note onset median metric level (NOMML)
-Using with the command line
+## Using with the command line  <br />
 usage: python main.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]  <br />
-Install and import Libraries for the NOMML code: os, glob, json, random, numpy, tqdm, Pool  <br />
+## Install and import Libraries for the NOMML code: <br /> 
+os, glob, json, random, numpy, tqdm, Pool <br />
 symusic library is used for MIDI parsing.
 # 
