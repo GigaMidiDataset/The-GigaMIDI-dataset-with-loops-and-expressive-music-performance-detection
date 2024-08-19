@@ -63,6 +63,7 @@ Note: symusic library is used for MIDI parsing.
 
 ## Using with the command line  <br />
 usage: python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]  <br />
+Note: If you run the code succesfully, it will generate .JSON file with data.
 
 
 # Analysis of Evaluation Set and Optimal Threshold Selection
