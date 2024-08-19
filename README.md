@@ -56,12 +56,12 @@ python main.py
 ```
 
 
-# Instruction for using the code for note onset median metric level (NOMML) heuristic
-## Install and import Python libraries for the NOMML code: <br /> 
+## Instruction for using the code for note onset median metric level (NOMML) heuristic
+### Install and import Python libraries for the NOMML code: <br /> 
 Imported libraries: os, glob, json, random, numpy, tqdm, Pool, symusic (pip install required for numpy, tqdm and symusic) <br />
 Note: symusic library is used for MIDI parsing.
 
-## Using with the command line  <br />
+### Using with the command line  <br />
 usage: 
 ```python
 python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]
@@ -70,11 +70,11 @@ python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]
 Note: If you run the code succesfully, it will generate .JSON file with appropriate metadata.
 
 
-# Analysis of Evaluation Set and Optimal Threshold Selection
+## Analysis of Evaluation Set and Optimal Threshold Selection
 The Analysis of Evaluation Set and Optimal Threshold Selection.zip archive contains CSV files corresponding to our training set, which were utilized to identify optimal thresholds for each heuristic in expressive music performance detection. These files include percentile calculations used to determine the optimal thresholds. The rationale behind employing percentiles from the data distribution is to delineate the boundary between non-expressive and expressive tracks based on the values of our heuristic features.
 
 
-# Ethical Statement
+## Ethical Statement
 The GigaMIDI dataset consists of MIDI files acquired via the aggregation of previously available datasets and web scraping from publicly available online sources. Each subset is accompanied by source links, copyright information when available, and acknowledgments. File names are anonymized using MD5 hash encryption. We acknowledge and cited the work from the previous dataset papers that we aggregate and analyze as part of the GigaMIDI subsets. 
 This data has been collected, used, and distributed under Fair Dealing [ref to country and law copyright act anonymized]. Fair Dealing permits the limited use of copyright-protected material without the risk of infringement and without having to seek the permission of copyright owners. It is intended to provide a balance between the rights of creators and the rights of users.  As per instructions of the Copyright Office of [anonymized University], two protective measures have been put in place that are deemed sufficient given the nature of the data (accessible online):
 
