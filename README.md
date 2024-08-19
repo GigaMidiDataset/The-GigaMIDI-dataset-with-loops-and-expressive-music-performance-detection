@@ -57,7 +57,7 @@ python main.py
 
 
 # Instruction for using the code for note onset median metric level (NOMML) heuristic
-## Install and import Libraries for the NOMML code: <br /> 
+## Install and import Python libraries for the NOMML code: <br /> 
 Imported libraries: os, glob, json, random, numpy, tqdm, Pool, symusic (pip install required for numpy, tqdm and symusic) <br />
 Note: symusic library is used for MIDI parsing.
 
