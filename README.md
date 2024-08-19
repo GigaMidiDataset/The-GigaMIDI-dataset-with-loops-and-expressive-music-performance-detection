@@ -64,7 +64,7 @@ python main.py
 ### Install and import Python libraries for the NOMML code: <br /> 
 Imported libraries: 
 ```
-pip install numpy, tqdm, symusic
+pip install numpy tqdm symusic
 ```
 <br />
 Note: symusic library is used for MIDI parsing.
