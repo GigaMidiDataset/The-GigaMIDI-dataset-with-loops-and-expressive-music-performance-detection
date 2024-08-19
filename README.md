@@ -31,7 +31,7 @@ The following pipeline configuration was determined through hyperparameter tunin
 {'C': 0.046415888336127774}
 
 # Logistic Regression Instance
-LogisticRegression(C=0.046415888336127774, max_iter=10000, tol=0.1)
+LogisticRegression(random_state=0, C=0.046415888336127774, max_iter=10000, tol=0.1)
 
 # Pipeline
 Pipeline(steps=[('scaler', StandardScaler(with_std=False)),
