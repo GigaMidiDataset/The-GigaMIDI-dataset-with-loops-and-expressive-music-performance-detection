@@ -17,6 +17,11 @@ GigaMIDI dataset and the loop dataset
 [**/tests**](./tests): E2E tests for expressive performance detection and 
 loop extractions
 
+### Analysis of Evaluation Set and Optimal Threshold Selection
+The Analysis of Evaluation Set and Optimal Threshold Selection.zip archive contains CSV files corresponding to our training set, which were utilized to identify optimal thresholds for each heuristic in expressive music performance detection. These files include percentile calculations used to determine the optimal thresholds. The rationale behind employing percentiles from the data distribution is to delineate the boundary between non-expressive and expressive tracks based on the values of our heuristic features.
+
+### Data Source Links are organized and uploaded in PDF. 
+
 ## Running MIDI-based Loop Detection
 
 Included with GigaMIDI dataset is a collection of all loops identified in the 
@@ -68,10 +73,6 @@ python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]
 ```
 <br />
 Note: If you run the code succesfully, it will generate .JSON file with appropriate metadata.
-
-
-## Analysis of Evaluation Set and Optimal Threshold Selection
-The Analysis of Evaluation Set and Optimal Threshold Selection.zip archive contains CSV files corresponding to our training set, which were utilized to identify optimal thresholds for each heuristic in expressive music performance detection. These files include percentile calculations used to determine the optimal thresholds. The rationale behind employing percentiles from the data distribution is to delineate the boundary between non-expressive and expressive tracks based on the values of our heuristic features.
 
 ## Acknowledgement
 Anonymized during the peer review process for the paper.
