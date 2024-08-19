@@ -67,7 +67,7 @@ usage:
 python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]
 ```
 <br />
-Note: If you run the code succesfully, it will generate .JSON file with data.
+Note: If you run the code succesfully, it will generate .JSON file with appropriate metadata.
 
 
 # Analysis of Evaluation Set and Optimal Threshold Selection
