@@ -17,7 +17,7 @@ GigaMIDI dataset and the loop dataset
 [**/tests**](./tests): E2E tests for expressive performance detection and 
 loop extractions
 
-## Running Loop Detection
+## Running MIDI-based Loop Detection
 
 Included with GigaMIDI dataset is a collection of all loops identified in the 
 dataset between 4 and 32 bars in length, with a minimum density of 0.5 notes 
@@ -64,7 +64,6 @@ Note: symusic library is used for MIDI parsing.
 ## Using with the command line  <br />
 usage: python nomml.py [-h] --folder FOLDER [--force] [--nthreads NTHREADS]  <br />
 
-# Instruction for the MIDI-based music loop detection method <br />
 
 # Analysis of Evaluation Set and Optimal Threshold Selection
 The Analysis of Evaluation Set and Optimal Threshold Selection.zip archive contains CSV files corresponding to our training set, which were utilized to identify optimal thresholds for each heuristic in expressive music performance detection. These files include percentile calculations used to determine the optimal thresholds. The rationale behind employing percentiles from the data distribution is to delineate the boundary between non-expressive and expressive tracks based on the values of our heuristic features.
