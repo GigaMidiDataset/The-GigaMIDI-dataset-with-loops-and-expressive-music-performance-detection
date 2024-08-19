@@ -21,6 +21,25 @@ loop extractions
 
 [**Data Source Links for the GigaMIDI Dataset - Sheet1.pdf**](https://github.com/GigaMidiDataset/The-GigaMIDI-dataset-with-loops-and-expressive-music-performance-detection/blob/8acb0e5ca8ac5eb21c072ed381fa737689748c81/Data%20Source%20Links%20for%20the%20GigaMIDI%20Dataset%20-%20Sheet1.pdf): Data source links for each collected subset of the GigaMIDI dataset are all organized and uploaded in PDF. 
 
+
+## Pipeline Configuration
+
+The following pipeline configuration was determined through hyperparameter tuning using leave-one-out cross-validation and GridSearchCV for the logistic regression model:
+
+```python
+# Hyperparameters
+{'C': 0.046415888336127774}
+
+# Logistic Regression Instance
+LogisticRegression(C=0.046415888336127774, max_iter=10000, tol=0.1)
+
+# Pipeline
+Pipeline(steps=[('scaler', StandardScaler(with_std=False)),
+                ('logistic',
+                 LogisticRegression(C=0.046415888336127774, max_iter=10000,
+                                    tol=0.1))])
+```
+
 ## Running MIDI-based Loop Detection
 
 Included with GigaMIDI dataset is a collection of all loops identified in the 
