@@ -38,9 +38,9 @@ task_ids: []
 ## Dataset Description
 
 <!-- - **Homepage:** https://metacreation.net/GigaMIDI -->
-- **Repository:** https://github.com/Metacreation-Lab/GigaMIDI
+- **Repository:** Anonymized during the peer review process
 <!-- - **Paper:**  -->
-- **Point of Contact:** [Keon Ju Maverick Lee](mailto:keon_maverick@sfu.ca)
+- **Point of Contact:** Anonymized during the peer review process
 
 ### Dataset Summary
 
