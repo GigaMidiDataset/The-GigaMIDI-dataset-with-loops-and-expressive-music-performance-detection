@@ -271,6 +271,22 @@ Another potential issue with the dataset is the album-effect. When using the dat
 
 Lastly, all source data is duly acknowledged and cited in accordance with fair use and ethical standards. More than 50% of the dataset was collected through web scraping and author-led initiatives, which include manual data collection from online sources and retrieval from Zenodo and GitHub. To ensure transparency and prevent misuse, links to data sources for each subset are systematically organized and provided in our GitHub repository, enabling users to identify and verify the datasets used.
 
+## FAIR (Findable, Accessible, Interoperable, Reusable) principles with the GigaMIDI dataset
+
+The FAIR (Findable, Accessible, Interoperable, Reusable) principles serve as a framework to ensure that data is well-managed, easily discoverable, and usable for a broad range of purposes in research. These principles are particularly important in the context of data management to facilitate open science, collaboration, and reproducibility.
+
+1. Findable: Data should be easily discoverable by both humans and machines. This is typically achieved through proper metadata, traceable source links and searchable resources. Applying this to MIDI data, each subset of MIDI files collected from public domain sources should be accompanied by clear and consistent metadata. For example, organizing the source links of each data subset, as done with the GigaMIDI dataset, ensures that each source can be easily traced and referenced, improving discoverability.
+
+2. Accessible: Once found, data should be easily retrievable using standard protocols. Accessibility does not necessarily imply open access, but it does mean that data should be available under well-defined conditions. For the GigaMIDI dataset, hosting the data on platforms like Hugging Face Hub improves accessibility, as these platforms provide efficient data retrieval mechanisms, especially for large-scale datasets. Ensuring that MIDI data is accessible for public use, while respecting any applicable licenses, supports wider research and analysis in music computing.
+
+3. Interoperable: Data should be structured in such a way that it can be integrated with other datasets and used by various applications. MIDI data, being a widely accepted format in music research, is inherently interoperable, especially when standardized metadata and file formats are used. By ensuring that the GigaMIDI dataset complies with widely adopted standards and supports integration with state-of-the-art libraries in symbolic music processing, such as Symusic (https://github.com/Yikai-Liao/symusic) and MidiTok (https://github.com/Natooz/MidiTok), the dataset enhances its utility for music researchers and practitioners working across different platforms and systems.
+
+4. Reusable: Data should be well-documented and licensed so it can be reused in future research. Reusability is ensured through proper metadata, clear licenses, and documentation of provenance. In the case of GigaMIDI, aggregating all subsets from public domain sources and linking them to the original sources strengthens the reproducibility and traceability of the data. This practice allows future researchers to not only use the dataset but also verify and expand upon it by referring to the original data sources.
+
+In summary, applying FAIR principles to managing MIDI data, such as the GigaMIDI dataset, ensures that the data is organized in a manner that promotes reproducibility and traceability. By clearly documenting the source links of each subset and ensuring the dataset is findable, accessible, interoperable, and reusable, the data becomes a robust resource for the research community. 
+![image](https://github.com/user-attachments/assets/1f7a2986-66b9-4643-9eb3-2e389ffeada3)
+
+
 <!--### Citation Information
 
 ```
