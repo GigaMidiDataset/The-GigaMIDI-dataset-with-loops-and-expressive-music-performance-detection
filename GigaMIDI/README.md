@@ -284,7 +284,6 @@ The FAIR (Findable, Accessible, Interoperable, Reusable) principles serve as a f
 4. Reusable: Data should be well-documented and licensed so it can be reused in future research. Reusability is ensured through proper metadata, clear licenses, and documentation of provenance. In the case of GigaMIDI, aggregating all subsets from public domain sources and linking them to the original sources strengthens the reproducibility and traceability of the data. This practice allows future researchers to not only use the dataset but also verify and expand upon it by referring to the original data sources.
 
 In summary, applying FAIR principles to managing MIDI data, such as the GigaMIDI dataset, ensures that the data is organized in a manner that promotes reproducibility and traceability. By clearly documenting the source links of each subset and ensuring the dataset is findable, accessible, interoperable, and reusable, the data becomes a robust resource for the research community. 
-![image](https://github.com/user-attachments/assets/1f7a2986-66b9-4643-9eb3-2e389ffeada3)
 
 
 <!--### Citation Information
